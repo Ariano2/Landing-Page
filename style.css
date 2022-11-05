@@ -97,3 +97,20 @@ img{
   padding-left:30px;
   padding-right:30px;
 }
+.quote{
+  padding:50px;
+  padding-left:40px;
+  padding-right:40px;
+  display:flex;
+  flex-direction: column;
+  background-color:#e5e7eb;
+}
+.quote em{
+  color:#1f2937;
+  font-size:32px;
+}
+.quote .quote-cite{
+  align-self:flex-end;
+  font-size:24px;
+  color:#1f2937;
+}

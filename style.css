@@ -62,3 +62,34 @@ img{
   flex:1,1,auto;
   margin-right:90px;
 }
+.middle{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding-top:15px;
+  padding-bottom:60px;
+}
+.middle .mid-heading{
+  font-size:36px;
+  color:#1f2937;
+  font-weight: bolder;
+}
+.middle .mid-sub-text{
+  color:black;
+  text-align: center;
+}
+.middle .mid-image{
+  width:150px;
+  height:122px;
+}
+.middle .mid-imagesandtext{
+  display:flex;
+  flex-flow:row nowrap;
+  margin-left:60px;
+  margin-right:60px;
+}
+.middle .mid-imgtext-obj{
+  display:flex;
+  flex-flow:column wrap;
+  align-items:center;
+}

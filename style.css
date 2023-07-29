@@ -1,5 +1,7 @@
 body{
     margin:0px;
+    background-color: lightgray;
+    font-family:Helvetica, Times, serif;
 }
 ul{
     list-style-type: none;
@@ -23,7 +25,7 @@ a{
 }
 .header ul li a, .header p{
     font-size:18px;
-    color: #e5e7eb;;
+    color: #e5e7eb;
 }
 .header h1{
     font-size:48px;
@@ -37,6 +39,17 @@ a{
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+.header button{
+  padding:20px;
+  background-color:#3882f6;
+  border-radius: 20px;
+  color:#F9FAF8;
+  border:0px;
+  font-size:18px;
+}
+.header button:hover{
+    text-decoration: underline;
 }
 .hero{
     display:flex;
@@ -69,7 +82,7 @@ a{
 }
 
 .quote{
-  padding:50px 100px 50px 50px;
+  padding:50px 100px 50px 150px;
   background-color:#e5e7eb;
   display:flex;
   flex-direction:column;
@@ -81,5 +94,34 @@ a{
 }
 .quote p{
   align-self: flex-end;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight:700;
+  margin-right:50px;
+}
+
+.action{
+  background-color:#3882f6;
+  margin:100px;
+  padding:20px;
+  color:#F9FAF8;
+  font-size:20px;
+  display:flex;
+  justify-content:space-between;
+  border-radius:25px;
+}
+.action h3{
+    margin-top:0px;
+}
+.action button{
+    font-size:24px;
+    background-color:#3882f6;
+    color:#F9FAF8;
+    font-weight:bold;
+    padding:30px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+.action button:hover{
+    text-decoration: underline;
+    border:3px goldenrod solid;
 }

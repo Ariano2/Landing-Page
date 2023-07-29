@@ -67,3 +67,19 @@ a{
     flex-direction:column;
     text-align: center
 }
+
+.quote{
+  padding:50px 100px 50px 50px;
+  background-color:#e5e7eb;
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+}
+.quote q{
+  font-size:32px;
+  font-weight:300;
+}
+.quote p{
+  align-self: flex-end;
+  font-size: 18px;
+}
